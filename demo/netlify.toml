@@ -9,3 +9,6 @@ package = ".."
 
 [[plugins]]
 package = "@netlify/plugin-local-install-core"
+
+[functions]
+node_bundler = "esbuild"
